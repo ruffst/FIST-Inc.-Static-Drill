@@ -7,31 +7,34 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>Oil1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
-      <Icon>Textures\GUI\Icons\buttons\component</Icon>
-      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight</HighlightIcon>
-      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot</InputConstraintIcon>
+      <DisplayName>DisplayName_BlueprintClass_Components.dds</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
     </Class>
+
     <Class>
       <Id>
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>Oil2</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
-      <Icon>Textures\GUI\Icons\buttons\component</Icon>
-      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight</HighlightIcon>
-      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot</InputConstraintIcon>
+      <DisplayName>DisplayName_BlueprintClass_Components.dds</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
     </Class>
-        <Class>
+
+    <Class>
       <Id>
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>Oil3</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
-      <Icon>Textures\GUI\Icons\buttons\component</Icon>
-      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight</HighlightIcon>
-      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot</InputConstraintIcon>
+      <DisplayName>DisplayName_BlueprintClass_Components.dds</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
     </Class>
+
   </BlueprintClasses>
   <BlueprintClassEntries>
   </BlueprintClassEntries>
