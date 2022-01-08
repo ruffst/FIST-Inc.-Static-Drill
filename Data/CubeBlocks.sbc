@@ -79,7 +79,6 @@
       <ActionSound>BlockAirVentExhale</ActionSound>
       <PrimarySound>BlockAirVentExhale</PrimarySound>
     </Definition>
-    <!-- 
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
       <Id>
         <TypeId>Assembler</TypeId>
@@ -231,6 +230,6 @@
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <ActionSound>BlockAirVentExhale</ActionSound>
       <PrimarySound>BlockAirVentExhale</PrimarySound>
-    </Definition>-->
+    </Definition>
   </CubeBlocks>
 </Definitions>
