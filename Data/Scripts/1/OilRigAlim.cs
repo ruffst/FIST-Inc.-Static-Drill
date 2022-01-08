@@ -26,6 +26,7 @@ using VRage.Utils;
 using VRageMath;
 using VRage.Game.Entity;
 using VRage.Voxels;
+using System.Diagnostics;
 
 namespace P3DResourceRig
 {
@@ -134,7 +135,8 @@ namespace P3DResourceRig
         }
 
     }
-     [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Assembler), true, "LargeBlockRig2")]
+    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Assembler), true, "LargeBlockRig2")]
+    [DebuggerDisplay($"{{{nameof(GetDebuggerDisplay)}(),nq}}")]
     public class Rig3 : MyGameLogicComponent
     {
         // Builder is nessassary for GetObjectBuilder method as far as I know.
@@ -238,7 +240,7 @@ namespace P3DResourceRig
             }
         }
 
-     [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Assembler), true, "LargeBlockRig3")]
+    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Assembler), true, "LargeBlockRig3")]
     public class Rig3 : MyGameLogicComponent
     {
         // Builder is nessassary for GetObjectBuilder method as far as I know.
