@@ -56,7 +56,7 @@
         <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RemoteOreExtractor_Cons4.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RemoteOreExtractor_Cons5.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Drill Platform</BlockPairName>
+      <BlockPairName>Drill Platform 1</BlockPairName>
       <Center x="0" y="0" z="0" />
       <EdgeType>Light</EdgeType>
 
@@ -72,13 +72,14 @@
       <StandbyPowerConsumption>6</StandbyPowerConsumption>
       <OperationalPowerConsumption>6</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>Oil</Class>
+        <!--<Class>Oil</Class>-->
       </BlueprintClasses>
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <ActionSound>BlockAirVentExhale</ActionSound>
       <PrimarySound>BlockAirVentExhale</PrimarySound>
     </Definition>
+
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
       <Id>
         <TypeId>Assembler</TypeId>
@@ -132,7 +133,7 @@
         <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RemoteOreExtractor_Cons4.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RemoteOreExtractor_Cons5.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Drill Platform</BlockPairName>
+      <BlockPairName>Drill Platform 2</BlockPairName>
       <Center x="0" y="0" z="0" />
       <EdgeType>Light</EdgeType>
 
@@ -148,13 +149,14 @@
       <StandbyPowerConsumption>6</StandbyPowerConsumption>
       <OperationalPowerConsumption>6</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>Oil</Class>
+        <!--<Class>Oil</Class>-->
       </BlueprintClasses>
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <ActionSound>BlockAirVentExhale</ActionSound>
       <PrimarySound>BlockAirVentExhale</PrimarySound>
     </Definition>
+
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
       <Id>
         <TypeId>Assembler</TypeId>
@@ -208,7 +210,7 @@
         <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RemoteOreExtractor_Cons4.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RemoteOreExtractor_Cons5.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Drill Platform</BlockPairName>
+      <BlockPairName>Drill Platform 3</BlockPairName>
       <Center x="0" y="0" z="0" />
       <EdgeType>Light</EdgeType>
 
@@ -224,7 +226,7 @@
       <StandbyPowerConsumption>6</StandbyPowerConsumption>
       <OperationalPowerConsumption>6</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>Oil</Class>
+        <!--<Class>Oil</Class>-->
       </BlueprintClasses>
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
