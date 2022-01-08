@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClasses>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Oil</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\component</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot</InputConstraintIcon>
+    </Class>
+
+  </BlueprintClasses>
+  <BlueprintClassEntries>
+  </BlueprintClassEntries>
+</Definitions>
