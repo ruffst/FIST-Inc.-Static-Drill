@@ -148,7 +148,7 @@ namespace P3DResourceRig
             }        
         }
     }
-     [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Assembler), true, "LargeBlockRig3")]
+    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Assembler), true, "LargeBlockRig3")]
     public class Rig3 : MyGameLogicComponent
     {
         // Builder is nessassary for GetObjectBuilder method as far as I know.
