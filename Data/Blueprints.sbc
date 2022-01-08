@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Blueprints>
+
+  <!--P3Dstonetoiron-->
 	<Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -20,6 +22,8 @@
      </Results>
 	    <BaseProductionTimeInSeconds>2.5</BaseProductionTimeInSeconds>
     </Blueprint>
+
+  <!--P3Dstonetocobalt-->
 	<Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -35,6 +39,8 @@
        </Results>
 	    <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
     </Blueprint>
+
+  <!--P3Dstonetonickel-->
 	<Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -50,6 +56,8 @@
        </Results>
 	    <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
     </Blueprint>
+
+  <!--P3Dstonetoplatinum-->
 	<Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -65,6 +73,8 @@
        </Results>
 	    <BaseProductionTimeInSeconds>180.0</BaseProductionTimeInSeconds>
     </Blueprint>
+
+  <!--P3Dstonetomagnesium-->
 	<Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -80,6 +90,8 @@
        </Results>
 	    <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
     </Blueprint>
+
+  <!--P3Dstonetosilicon-->
 	<Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -95,6 +107,8 @@
        </Results>
 	    <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
     </Blueprint>
+
+  <!--P3Dstonetogold-->
 	<Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -110,6 +124,8 @@
        </Results>
 	    <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
+
+  <!--P3Dstonetosilver-->
 	<Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -125,6 +141,8 @@
        </Results>
 	    <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
     </Blueprint>
+
+  <!--P3Dstonetouranium-->
 	<Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -140,6 +158,8 @@
        </Results>
 	    <BaseProductionTimeInSeconds>900.0</BaseProductionTimeInSeconds>
     </Blueprint>
+
+  <!--P3Dstonetoice-->
 	<Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -155,6 +175,8 @@
        </Results>
 	    <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
     </Blueprint>
+
+  <!--x100P3Dstonetoiron-->
 	<Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -170,6 +192,8 @@
        </Results>
 	    <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
+
+  <!--x100P3Dstonetoice-->
 	<Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
