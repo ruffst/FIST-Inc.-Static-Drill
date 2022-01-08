@@ -8,13 +8,13 @@ using static Sandbox.ModAPI.Ingame.TerminalBlockExtentions;
 
 namespace DisableModdedBlocks
 {
-    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Assembler), true, "LargeBlockRig")]
+    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Assembler), true, "LargeBlockRig1","LargeBlockRig2","LargeBlockRig3")]
     public class DisableBlocks : MyGameLogicComponent
     {
         /// <summary>
         ///     Disable all blocks closer than this number of meters.
         /// </summary>
-        private const double DisableDistance = 1000;
+        private const double DisableDistance1 = 1000;
 
         private static readonly HashSet<IMyEntity> myModdedBlocks = new HashSet<IMyEntity>();
         private static readonly HashSet<IMyEntity> myClosedBlocks = new HashSet<IMyEntity>();
@@ -47,7 +47,8 @@ namespace DisableModdedBlocks
                     
 
                 var dist = (moddedBlock.GetPosition() - Entity.GetPosition()).LengthSquared();
-                if (dist < DisableDistance * DisableDistance)
+                
+                if (dist < DisableDistance1 * DisableDistance1)
                     (Entity as IMyTerminalBlock).ApplyAction("OnOff_Off");
             }
             foreach (var moddedBlock in myClosedBlocks)

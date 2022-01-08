@@ -9,7 +9,9 @@
 			<DisplayName>DisplayName_Category_Production</DisplayName>
 			<Name>Production</Name>
 			<ItemIds>
-				<string>LargeBlockRig</string>
+				<string>LargeBlockRig1</string>
+				<string>LargeBlockRig2</string>
+				<string>LargeBlockRig3</string>
 			</ItemIds>
 		</Category>
 </CategoryClasses>

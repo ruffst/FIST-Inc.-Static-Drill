@@ -29,7 +29,7 @@ using VRage.Voxels;
 
 namespace P3DResourceRig
 {
-    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Assembler), true, "LargeBlockRig")]
+    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Assembler), true, "LargeBlockRig1","LargeBlockRig2","LargeBlockRig3")]
     public class Rig : MyGameLogicComponent
     {
         // Builder is nessassary for GetObjectBuilder method as far as I know.
