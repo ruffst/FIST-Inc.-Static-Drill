@@ -16,43 +16,43 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\RemoteOreExtractor.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="1100" />
+        <Component Subtype="SteelPlate" Count="1100" >
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="300" />
+        <Component Subtype="Construction" Count="300" >
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="LargeTube" Count="60" />
+        <Component Subtype="LargeTube" Count="60" >
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="50" />
+        <Component Subtype="Motor" Count="50" >
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="Computer" Count="1" >
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="CopperComputer" Count="30" />
+        <Component Subtype="CopperComputer" Count="30" >
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="100" />
+        <Component Subtype="SteelPlate" Count="100" >
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
