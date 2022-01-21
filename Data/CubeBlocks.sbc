@@ -120,7 +120,7 @@
       <StandbyPowerConsumption>6</StandbyPowerConsumption>
       <OperationalPowerConsumption>6</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>CommonMetalHorst</Class>
+        <Class>GravelConversions</Class>
       </BlueprintClasses>
       <RefineSpeed>0.5</RefineSpeed>
       <MaterialEfficiency>0.5</MaterialEfficiency>
