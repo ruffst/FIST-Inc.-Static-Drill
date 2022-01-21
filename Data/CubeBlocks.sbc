@@ -3,12 +3,12 @@
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
 
-    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
-        <TypeId>Assembler</TypeId>
+        <TypeId>Refinery</TypeId>
         <SubtypeId>LargeBlockRig1</SubtypeId>
       </Id>
-      <DisplayName>Drill Platform 1</DisplayName>
+      <DisplayName>Drill Platform</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\RemoteExtractor.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -20,6 +20,12 @@
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Bleiplatte" Count="80">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>LeadScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="300" >
@@ -52,6 +58,12 @@
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="KupferSpulle" Count="50">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="SteelPlate" Count="100" >
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -59,7 +71,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="0" />
+      <CriticalComponent Subtype="KupferSpulle" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -98,17 +110,20 @@
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <InventoryMaxVolume>1</InventoryMaxVolume>
       <InventorySize>
-        <X>1</X>
-        <Y>1</Y>
-        <Z>1</Z>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
       </InventorySize>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <AssemblySpeed>1</AssemblySpeed>
+      <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+      <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
       <StandbyPowerConsumption>6</StandbyPowerConsumption>
       <OperationalPowerConsumption>6</OperationalPowerConsumption>
       <BlueprintClasses>
-
+        <Class>CommonMetalHorst</Class>
       </BlueprintClasses>
+      <RefineSpeed>0.5</RefineSpeed>
+      <MaterialEfficiency>0.5</MaterialEfficiency>
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <ActionSound>BlockAirVentExhale</ActionSound>

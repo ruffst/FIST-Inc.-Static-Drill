@@ -29,12 +29,12 @@ using VRage.Voxels;
 
 namespace P3DResourceRig
 {
-    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Assembler), true, "LargeBlockRig1")]
+    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Refinery), true, "LargeBlockRig1")]
     public class Rig1 : MyGameLogicComponent
     {
         // Builder is nessassary for GetObjectBuilder method as far as I know.
         private MyObjectBuilder_EntityBase builder;
-        private Sandbox.ModAPI.IMyAssembler m_generator;
+        private Sandbox.ModAPI.IMyRefinery m_generator;
         private IMyCubeBlock m_parent;
         #region IsInVoxel definition
         private bool IsInVoxel(Sandbox.ModAPI.IMyTerminalBlock block)
@@ -81,7 +81,7 @@ namespace P3DResourceRig
 
         public override void Init(MyObjectBuilder_EntityBase objectBuilder)
         {
-            m_generator = Entity as Sandbox.ModAPI.IMyAssembler;
+            m_generator = Entity as Sandbox.ModAPI.IMyRefinery;
             m_parent = Entity as IMyCubeBlock;
             builder = objectBuilder;
 
